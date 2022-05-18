@@ -3,6 +3,7 @@
     font-size: 10pt;
     margin: 0;
     padding: 0;
+    background-color: #3a4c8d;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 
 #container {
     padding-top: 2vh;
+    background-color: #00145e;
 }
 
 #title {
@@ -27,10 +29,26 @@ body {
     
 }
 
-#button {
+#selectors {
     display: flex;
     justify-content: center;
-    margin: 30vh auto 3vh auto;
+    background-color: #00145e;
+
+}
+
+#rgbButton, #hexButton {
+    margin: 2vh 1vh 2vh 1vh;
+    font-size: 2rem;
+    padding: 1vh 2vh;
+    background-color: #ccd3f2;
+    cursor: pointer;
+    border: 0.3vh solid yellow;
+}
+
+#button1, #button2 {
+    display: flex;
+    justify-content: center;
+    margin: 20vh auto 3vh auto;
     padding: 2vh;
     font-size: 1.5rem;
     border: 0.5vh solid #3a4c8d;
@@ -40,12 +58,21 @@ body {
     cursor: pointer;
 }
 
-#button:hover {
+#button1:active, #button2:active, #reloadButton:active {
     background-color: black;
     color: white;
 }
 
-#small {
-    font-size: 1.2rem;
-    font-style: italic;
+#reloadButton {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2vh;
+    margin: 4vh auto;
+    cursor: pointer;
+    border: 0.5vh solid #3a4c8d;
+    background-color: #ccd3f2;
+    color: black;
 }
+
+

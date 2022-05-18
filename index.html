@@ -15,13 +15,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Maven+Pro&family=Roboto&family=Rubik&family=Space+Mono&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="rgbSelect()">
     <section id="container">
         <button id="title">Color Changer</button>
+        <div id="selectors">
+          <button id="rgbButton" onclick="rgbSelect()">RGB</button>
+          <button id="hexButton" onclick="hexSelect()">Hex</button>
+        </div>
     </section>
-    <button id="button" onclick="colorChanger()">CLICK ME!<br></button>
-
-
-    
+    <button id="button1" onclick="rgbChanger()">CLICK ME!<br></button>
+    <button id="button2" onclick="hexChanger()">CLICK ME!<br></button>
+    <button id="reloadButton" onclick="reloadColors()">&#8635</button>
   </body>
 </html>
