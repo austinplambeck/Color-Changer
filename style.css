@@ -1,0 +1,51 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    padding-top: 2vh;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1vh 5vh;
+    font-size: 2.2rem;
+
+    border: 0.3vh solid #3a4c8d;
+    background-color: #ccd3f2;
+    color: black;
+    
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin: 30vh auto 3vh auto;
+    padding: 2vh;
+    font-size: 1.5rem;
+    border: 0.5vh solid #3a4c8d;
+    background-color: #ccd3f2;
+    color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
+
+#small {
+    font-size: 1.2rem;
+    font-style: italic;
+}
